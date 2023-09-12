@@ -1,0 +1,78 @@
+:root{
+  --light-bg:#EEEFEF;
+  --dark-bg:#1A183F;
+  --nav-bar-dark:#1F1E45;
+  --button-text-dark:#4431C7;
+  --button-text-light:#71DBC7;
+  --white-:white;
+
+}
+.light{
+  background: var(--light-bg);
+  transition: 2s;
+}
+.light .grid-item h2{
+  color: var(--light-bg);
+}
+.light .search input{
+  background: var(--light-bg);
+
+}
+.light .search button{
+  background: var(--button-text-light);
+
+}
+.light .navbar{
+  background: white;
+
+}
+.light .navbar h2{
+  color: var(--button-text-light);
+ 
+
+}
+.light .navbar i{
+  /* color:var(--button-text-light); */
+  color:orange;
+  
+
+}
+
+.light .modal{
+  background:white;
+
+  
+}
+.light .modal p{
+  color: var(--button-text-light);
+
+}
+.light .modal h4{
+  color:black;
+
+}
+.light .modal-prompt{
+  background: var(--light-bg);
+
+}
+.light .modal-container i{
+  color: var(--button-text-light);
+
+}
+.light .hero h1{
+  color: var(--button-text-light);
+
+  
+}
+.light .hero p{
+  color:black;
+
+}
+.light .hero button{
+  background: var(--button-text-light);
+
+}
+.light .hero i{
+  color:var(--button-text-light);
+
+}
